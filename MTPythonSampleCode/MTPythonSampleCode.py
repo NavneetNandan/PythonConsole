@@ -17,6 +17,7 @@ def GetTextAndTranslate(finalToken):
     print " "
     print "   Language List"
     print "     English"
+    print "     Hindi"
     print "     German"
     print "     Italian"
     print "     Spanish"
@@ -28,6 +29,8 @@ def GetTextAndTranslate(finalToken):
 
         if (sourceLang == "english") or (sourceLang == "English"):
             fromLangCode = "en"
+        elif (sourceLang == "Hindi") or (sourceLang == "hindi"):
+            fromLangCode = "hi"
         elif (sourceLang == "German") or (sourceLang == "german"):
             fromLangCode = "de"
         elif (sourceLang == "Italian") or (sourceLang == "italian"):
@@ -50,6 +53,8 @@ def GetTextAndTranslate(finalToken):
 
         if (destLang == "english") or (destLang == "English"):
             toLangCode = "en"
+        elif (sourceLang == "Hindi") or (sourceLang == "hindi"):
+            fromLangCode = "hi"
         elif (destLang == "German") or (destLang == "german"):
             toLangCode = "de"
         elif (destLang == "Italian") or (destLang == "italian"):
