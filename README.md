@@ -1,6 +1,6 @@
 PythonConsole is a command-line application in a Visual Studio solution. It demonstrates how to get an authentication token and how to use Translator Text API to translate text from one language to text in another language.
 
-The sample application only offers translation between 5 languages, but the service offers translations for 50+ languages.
+The sample application only offers translation between 56 languages, but the service offers translations for 50+ languages.
 
 This sample requires a subscription with Microsoft Translator Text API, which is part of Microsoft Azure Cognitive Services. Visit the [Text Translation API documentation page](http://docs.microsofttranslator.com/text-translate.html) to get started.
 
